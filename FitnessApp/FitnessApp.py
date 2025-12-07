@@ -1,3 +1,13 @@
+"""
+    This is an exercise from Group 2 for the topic "Object-oriented Programming" (OOP).  This is a command-line based app using OOP which allows users to:
+
+- Add fitness activities
+- View all logged activities
+- Calculate total time spent exercising
+- Interact through a clean, menu-driven interface
+"""
+
+
 class FitnessTracker:
     # Initialize with empty activity list
     def __init__(self):
