@@ -18,7 +18,7 @@ class FitnessTracker:
 
     #Show total exercise time
     def total_time(self):
-        total = sum(d for _,d in self.activities)
+        total = sum(d for act,d in self.activities)
         print(f"Total time spent exercising: {total} minutes.")
 # User interaction menu
 def menu():
